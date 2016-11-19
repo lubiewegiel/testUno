@@ -12,7 +12,7 @@ class ViewController: UIViewController, UITextFieldDelegate {
     
     //MARK: Properties
     @IBOutlet weak var nameTextField: UITextField!
-    @IBOutlet weak var negroNameLabel: UILabel!
+    @IBOutlet weak var nevermindNameLabel: UILabel!
     
 
     override func viewDidLoad() {
@@ -43,7 +43,7 @@ class ViewController: UIViewController, UITextFieldDelegate {
     
     func textFieldDidEndEditing(_ textField: UITextField) {
         
-        negroNameLabel.text = nameTextField.text
+        nevermindNameLabel.text = nameTextField.text
     }
     
     //MARK: Actions
@@ -54,7 +54,7 @@ class ViewController: UIViewController, UITextFieldDelegate {
 //            negroNameLabel.text = "Taki chuj"
 //        }
         
-        negroNameLabel.text = "Zreseciłem czarnucha"
+        nevermindNameLabel.text = "Zreseciłem"
     }
     
     
