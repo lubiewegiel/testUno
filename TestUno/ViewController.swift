@@ -13,6 +13,7 @@ class ViewController: UIViewController, UITextFieldDelegate {
     //MARK: Properties
     @IBOutlet weak var nameTextField: UITextField!
     @IBOutlet weak var nevermindNameLabel: UILabel!
+    @IBOutlet weak var CactusImageView: UIImageView!
     
 
     override func viewDidLoad() {
@@ -47,11 +48,11 @@ class ViewController: UIViewController, UITextFieldDelegate {
     }
     
     //MARK: Actions
-    @IBAction func addNegroButton(_ sender: UIButton) {
+    @IBAction func addResetButton(_ sender: UIButton) {
 //        if ((nameTextField.text) != ""){
-//            negroNameLabel.text = nameTextField.text
+//            nevermindNameLabel.text = nameTextField.text
 //        } else {
-//            negroNameLabel.text = "Taki chuj"
+//            nevermindNameLabel.text = "Taki chuj"
 //        }
         
         nevermindNameLabel.text = "Zreseciłem"

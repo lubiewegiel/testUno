@@ -66,8 +66,9 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="CactusImageView" destination="eLL-cH-FOM" id="sMb-SL-XKY"/>
                         <outlet property="nameTextField" destination="ayF-XZ-cS7" id="q0J-QG-Pdp"/>
-                        <outlet property="negroNameLabel" destination="17s-CJ-WnD" id="TxB-I0-OX3"/>
+                        <outlet property="nevermindNameLabel" destination="17s-CJ-WnD" id="hqh-cL-QKs"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
